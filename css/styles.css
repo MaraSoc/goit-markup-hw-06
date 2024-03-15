@@ -511,7 +511,7 @@ a {
 }
 .footer-section-style {
   display: flex;
-  background-color: var(--footer-bg-color);
+  /* background-color: var(--footer-bg-color); */
 }
 .footer-item {
   box-sizing: content-box;
@@ -557,7 +557,16 @@ a {
   background-color: var(--social-icon-bg-color);
   color: var(--social-icon-color-active);
 }
-
+.subscribe-form {
+  position: relative;
+  height: 40px;
+  width: 264px;
+}
+.subscribe-input {
+  position: absolute;
+}
+.subscribe-label {
+}
 /* Button section */
 .hero-section .hero-button {
   box-sizing: block;
