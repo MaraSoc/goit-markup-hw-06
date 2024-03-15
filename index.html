@@ -66,53 +66,63 @@
             <button class="close-btn" data-modal-close>
               <i data-feather="x"></i>
             </button>
-            <h2>Leave your contacts and we will call you back</h2>
+            <h2 class="modal-heading">
+              Leave your contacts and we will call you back
+            </h2>
             <div>
-              <form>
-                <div>
-                  <label for="name">Name</label>
-                  <input type="text" id="name" />
-                  <svg>
+              <form class="modal-form">
+                <div class="form-group">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="text" id="name" class="form-input" required />
+                  <svg class="form-icon">
                     <use href="./images/icons.svg.svg#icon-name"></use>
                   </svg>
                 </div>
-                <div>
-                  <label for="phone">Phone</label>
-                  <input type="tel" id="phone" />
-                  <svg>
+                <div class="form-group">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input type="tel" id="phone" class="form-input" required/>
+                  <svg class="form-icon">
                     <use href="./images/icons.svg.svg#icon-phone"></use>
                   </svg>
                 </div>
-                <div>
-                  <label for="email">Email</label>
-                  <input type="email" id="email" />
-                  <svg>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" id="email" class="form-input" required/>
+                  <svg class="form-icon">
                     <use href="./images/icons.svg.svg#icon-email"></use>
                   </svg>
                 </div>
-                <div>
-                  <label for="comment">Comment</label>
+                <div class="form-group">
+                  <label for="comment" class="form-label">Comment</label>
                   <input
                     type="textarea"
                     id="comment"
                     placeholder="Text input"
+                    class="form-input-textarea"
                   />
                 </div>
                 <div>
-                  <label>
-                    <input type="checkbox" name="agreement" value="agree" />
-                    <svg>
+                  <label class="agree-check">
+                    <input
+                      type="checkbox"
+                      name="agreement"
+                      value="agree"
+                      class="checkmark"
+                    />
+                    <svg class="check-icon">
                       <use href="./images/icons.svg.svg#icon-checkbox"></use>
                     </svg>
-                    <p>
+                    <p class="check-text">
                       I accept the terms and conditions of the
-                      <span>Privacy Policy</span>
+                      <span class="check-policy">Privacy Policy</span>
                     </p>
                   </label>
                 </div>
+                </div>
+                  <button type="submit" class="modal-send-btn">Send</button>
+                </div>
               </form>
-            </div>
-          </div>
+            
         </div>
       </section>
       <!-- First section -->
