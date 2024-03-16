@@ -256,7 +256,7 @@ a {
   color: var(--form-label-color);
 }
 
-.form-input-textarea {
+.form-textarea {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
@@ -267,7 +267,7 @@ a {
   width: 360px;
   height: 120px;
 }
-.form-input-textarea:focus {
+.form-textarea:focus {
   outline: none;
   border-color: #4d5ae5;
 }
@@ -287,6 +287,7 @@ a {
   fill: none;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  cursor: pointer;
 }
 .agree-check .checkmark:focus + .check-icon,
 .agree-check .checkmark:checked:focus + .check-icon {
@@ -299,6 +300,7 @@ a {
   outline: none;
   stroke: var(--checkbox-color);
   stroke-width: 0.2;
+  
 }
 .check-text {
   font-weight: 400;
@@ -328,6 +330,7 @@ a {
   color: #fff;
   cursor: pointer;
   border-style: none;
+  
   
 }
 .modal-send-btn:hover {
@@ -670,13 +673,12 @@ a {
   display: flex;
   justify-content: center;
   margin-left: 24px; 
+  cursor: pointer;
 }
 .subscribe-btn:hover {
   background-color: #404bbf;
   transform: scale(1.05);
   transition: background-color var(--transition);
-
-
 }
 
 .subscribe-btn-text {
