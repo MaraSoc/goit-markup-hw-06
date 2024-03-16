@@ -255,6 +255,7 @@ a {
   letter-spacing: 0.04em;
   color: var(--form-label-color);
 }
+
 .form-input-textarea {
   font-weight: 400;
   font-size: 12px;
@@ -327,11 +328,12 @@ a {
   color: #fff;
   cursor: pointer;
   border-style: none;
-  transition: background-color var(--transition);
+  
 }
 .modal-send-btn:hover {
   background-color: #404bbf;
   transform: scale(1.05);
+  transition: background-color var(--transition);
 }
 
 /* First section */
@@ -667,10 +669,16 @@ a {
   background: var(--subscribe-btn-bg-color);
   display: flex;
   justify-content: center;
-  margin-left: 24px;
- 
-  
+  margin-left: 24px; 
 }
+.subscribe-btn:hover {
+  background-color: #404bbf;
+  transform: scale(1.05);
+  transition: background-color var(--transition);
+
+
+}
+
 .subscribe-btn-text {
   font-weight: 500;
   letter-spacing: 0.04em;
