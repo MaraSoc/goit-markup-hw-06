@@ -21,7 +21,7 @@
   --checkbox-color: #4d5ae5;
   --checkbox-text-color: #8e8f99;
   --checkbox-policy-txt-color: #4d5ae5;
-  --subscribe-text-color:  #fff;
+  --subscribe-text-color: #fff;
   --subscribe-btn-bg-color: #4d5ae5;
   --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -300,7 +300,6 @@ a {
   outline: none;
   stroke: var(--checkbox-color);
   stroke-width: 0.2;
-  
 }
 .check-text {
   font-weight: 400;
@@ -330,8 +329,6 @@ a {
   color: #fff;
   cursor: pointer;
   border-style: none;
-  
-  
 }
 .modal-send-btn:hover {
   background-color: #404bbf;
@@ -579,18 +576,17 @@ a {
   position: relative;
   margin: 16px, 0;
 }
-
 .subscribe-label {
   position: absolute;
   top: 50%;
   left: 5px;
-  transform: translateY(-50%); */
+  transform: translateY(-50%);
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
   color: var(--subscribe-text-color);
   pointer-events: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 .subscribe-input {
   border: 1px solid #fff;
@@ -602,14 +598,12 @@ a {
   outline: none;
   color: #fff;
 }
-.subscribe-group input:focus~label,
-.subscribe-group input:valid~label
- {
+.subscribe-group input:focus ~ label,
+.subscribe-group input:valid ~ label {
   top: 0;
   font-size: 12px;
   background: var(--footer-bg-color);
- }
-
+}
 
 /* Button section */
 .hero-section .hero-button {
@@ -672,7 +666,7 @@ a {
   background: var(--subscribe-btn-bg-color);
   display: flex;
   justify-content: center;
-  margin-left: 24px; 
+  margin-left: 24px;
   cursor: pointer;
   border-style: none;
 }
@@ -693,7 +687,6 @@ a {
   height: 24px;
   color: #fff;
   margin-left: 16px;
-  
 }
 
 /* Pictures section */
